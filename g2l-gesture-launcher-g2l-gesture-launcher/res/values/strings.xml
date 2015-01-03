@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "app_name">G2L</string>
+    <string name = "action_settings">Settings</string>
+    <string name = "action_add_gesture">Add Gestures</string>
+    <string name = "action_preference">Preferences</string>
+    <string name = "action_support">Donate</string>
+    <string name = "select_action">Select Action</string>
+    <string name = "save_action">Save</string>
+    <string name = "title_clear">Clear</string>
+    <string name = "hint_image_button">Hint</string>
+    <string name = "title_preference">Preference</string>
+    <string name = "title_open_app">Open Application</string>
+    <string name = "title_wifi">Wifi</string>
+    <string name = "title_bluetooth">Bluetooth</string>
+    <string name = "title_bluetooth_visibility">Bluetooth Visibility</string>
+    <string name = "title_data_connectivity">Data Connectivity</string>
+    <string name = "title_sync_settings">Sync</string>
+    <string name = "title_sound_settings">Sound</string>
+    <string name = "title_brightness_settings">Brightness</string>
+    <string name = "title_flash_settings">LED Flash</string>
+    <string name = "title_other">Other</string>
+    <string name = "title_tethering">Tethering</string>
+    <string name = "title_contacts">Call / Message /Email</string>
+    <string name = "title_gestures_list">Gestures List</string>
+    
+    
+    <string name = "title_toggle_wifi">Toggle Wifi</string>
+    <string name = "title_turnon_wifi">Turn On Wifi</string>
+    <string name = "title_turnoff_wifi">Turn Off Wifi</string>
+    <string name = "title_wifi_settings">Wifi Settings</string>
+    <string name = "title_open_wifi_settings">Wifi Settings</string>
+    
+    
+    <string name = "title_toogle_bluetooth">Toggle Bluetooth</string>
+    <string name = "title_turnon_bluetooth">Turn On Bluetooth</string>
+    <string name = "title_turnoff_bluetooth">Turn Off Bluetooth</string>
+    <string name = "title_tmp_bluetooth_visible">Make Bluetooth visible for 2 minutes</string>
+    <string name = "title_bluetooth_settings">Bluetooth Settings</string>
+    <string name = "title_open_bluetooth_settings">Bluetooth Settings</string>
+    
+    
+    <string name = "title_toogle_data">Toggle Data Connectivity</string>
+    <string name = "title_turnon_data">Turn On  Data Connectivity</string>
+    <string name = "title_turnoff_data">Turn Off  Data Connectivity</string>
+    <string name = "title_data_settings">Data Connectivity Settings</string>
+    <string name = "title_open_data_settings">Data Connectivity Settings</string>
+    
+    <string name = "title_toogle_sync">Toggle Sync</string>
+    <string name = "title_turnon_sync">Turn On  Sync</string>
+    <string name = "title_turnoff_sync">Turn Off  Sync</string>
+    <string name= "title_open_sync_settings">Open Sync Settings</string>
+    
+    <string name = "title_toggle_brightness">Toggle Brightness</string>
+    <string name = "title_min_brightness">Minimum Brightness</string>
+    <string name = "title_medium_brightness">Medium Brightness</string>
+    <string name = "title_max_brightness">Maximum Brightness</string>
+    <string name = "title_open_display_settings">Open Display Settings</string>
+    
+    <string name = "title_toggle_sound">Toggle Sound Settings</string>
+    <string name = "title_mute_sound">Mute Phone</string>
+    <string name = "title_vibrate_sound">Vibrate Only</string>
+    <string name = "title_normal_sound">Normal mode</string>
+    <string name = "title_open_sound_settings">Open Sound Settings</string>
+    
+    <string name = "title_toogle_play_pause">Toggle Play Pause</string>
+    <string name = "title_play">Play</string>
+    <string name = "title_pause">pause</string>
+    
+    <string name = "title_toogle_flash">Toggle LED Flash</string>
+    <string name = "title_turnon_flash">Turn On  LED Flash</string>
+    <string name = "title_turnoff_flash">Turn Off  LED Flash</string>
+    
+    
+    <string name = "title_open_tethering_settings">Open Tethering Settings</string>
+    <string name = "title_open_gps_settings">Open GPS Settings</string>
+    <string name = "title_open_flightmode_settings">Open Flight mode Settings</string>
+    <string name = "title_open_battery_info">Battery Info</string>
+    <string name = "title_open_file">Open File</string>
+    <string name = "title_tether">Open Tethering &amp; Portable Hotspot</string>
+    
+    <string name = "title_open_url">Open URL</string>
+    <string name = "title_call_msg_mail">Call / Message / Email</string>
+    <string name = "title_contact_picker">Select Contact</string>
+    
+    
+    <string name = "title_enable_quick_launcher">Enable Quick Launch</string>
+    <string name = "title_quick_launcher_position">Quick Launcher Position</string>
+    <string name = "title_quick_launcher_transperancy">Quick Launcher Transparency</string>
+    <string name = "title_quick_launcher_size">Quick Launcher Size</string>
+    <string name = "title_enable_swipe_launcher">Enable Swipe Launch</string>
+    <string name = "title_swipe_launcher_position">Swipe Launch Position</string>
+    <string name = "title_enable_multiple_strokes">Enable Multiple Strokes</string>
+    <string name = "title_time_delay">Time Delay</string>
+    <string name = "title_gesture_sensitivity">Gesture Sensitivity</string>
+    <string name = "title_theme">App Theme</string>
+    <string name = "title_gesture_color">Gesture Color</string>
+    <string name = "title_rate_us">Rate Us</string>
+    <string name = "title_donate">Donate</string>
+    <string name = "title_gesture_list">Gesture List</string>
+    <string name = "desc_image_button">Add Gestures, Change settings etc.</string>
+    <string name = "title_enable_quick_launcher_close">Enable Close</string>
+    
+    <string name="title_blue">Blue</string>
+    <string name="title_red">Red</string>
+    <string name="title_green">Green</string>
+    <string name="title_yellow">Yellow</string>
+    <string name="title_magenta">Magenta</string>
+    <string name="title_cyan">Cyan</string>
+    <string name="title_black">Black</string>
+    <string name="title_custom">Custom</string>
+    
+    <string name = "title_hint">To add gestures click on settings </string>
+    <string name = "summary_quick_launch">Quick launch icon stays on screen so that you can access G2L from any app</string>    
+    <string name = "summary_open_url">Open URLs including bookmarks and custom url </string>
+    <string name = "summary_donate">If you like this app, please consider making a small donation </string>
+    <string name = "summary_rate_us">Rate us on store</string>
+    <string name = "summary_time_delay">Time delay between 2 successive strokes</string>
+    <string name = "summary_swipe_launch_position"></string>
+    <string name = "summary_enable_swipe_launch">Enable swipe launch so that you can open G2L by swiping from the edge of the screen</string>
+    
+    <string name = "title_confirm_before_launch">Confirm Before Launch</string> 
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

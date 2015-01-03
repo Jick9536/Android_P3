@@ -1,0 +1,5 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="prefScreen"
+    android:title="@string/title_gestures_list" >
+
+</PreferenceScreen>

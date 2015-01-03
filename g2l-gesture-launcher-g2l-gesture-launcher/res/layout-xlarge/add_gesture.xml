@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idSep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:fadeEnabled="false"
+        android:fadeOffset="100000000"
+        android:orientation="vertical" >
+    </android.gesture.GestureOverlayView>
+
+    <View
+            android:layout_height="1dp"
+            android:id="@+id/idSep"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        	android:layout_above="@+id/idButtonLayout"
+            android:background="#f1f1f1" />
+    <LinearLayout
+        android:id="@+id/idButtonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+        
+
+        <Button
+            android:id="@+id/idBtnSelectAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/select_action" />
+
+        <Button
+            android:id="@+id/idBtnSave"            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_action" />
+        <Button
+            android:id="@+id/idBtnClear"   
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_clear" />
+    </LinearLayout>
+
+</RelativeLayout>

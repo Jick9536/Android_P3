@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idGestureLauncherRelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"        
+        android:layout_margin="0dp" >
+    </android.gesture.GestureOverlayView>
+
+    <ImageButton
+        android:id="@+id/idBtnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:contentDescription="@string/desc_image_button"
+        android:src="@drawable/ic_settings" />
+
+    <RelativeLayout
+        android:id="@+id/Names"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/idBtnSettings"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/idImgArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:background="@null"
+            android:contentDescription="@string/hint_image_button"
+            android:src="@drawable/ic_hint" />
+
+        <TextView
+            android:id="@+id/idHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/idImgArrow"
+        	android:layout_alignParentTop="true"
+        	android:layout_alignParentRight="false"
+            android:background="@null"
+            android:contentDescription="@string/hint_image_button"
+            android:singleLine="false"
+            android:text="@string/title_hint"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:key="app_preferencescreen"
+    android:title="@string/title_preference" >
+
+    <CheckBoxPreference
+        android:key="keyChkEnableQuickLauncher"
+        android:summary="@string/summary_quick_launch"
+        android:title="@string/title_enable_quick_launcher" >
+    </CheckBoxPreference>
+        
+
+    <Preference
+        android:key="keyQuickLauncherPosition"
+        android:title="@string/title_quick_launcher_position" >
+    </Preference>
+
+    <Preference
+        android:key="keyQuickLauncherAlpha"
+        android:title="@string/title_quick_launcher_transperancy" >
+    </Preference>
+    
+    <Preference
+        android:key="keyQuickLauncherSize"
+        android:title="@string/title_quick_launcher_size" >
+    </Preference>
+    
+    
+    <CheckBoxPreference
+        android:key="keyChkEnableSwipeLauncher"
+        android:summary="@string/summary_enable_swipe_launch"
+        android:title="@string/title_enable_swipe_launcher" >
+    </CheckBoxPreference>
+    
+    <Preference 
+        android:key = "keySwipeLaunchPosition"
+        android:title = "@string/title_swipe_launcher_position"
+        android:summary = "@string/summary_swipe_launch_position" />
+    
+    <CheckBoxPreference
+        android:key="keyChkEnableMultipleStroke"
+        android:summary="Enable multiple strokes"
+        android:title="@string/title_enable_multiple_strokes" >
+    </CheckBoxPreference>
+    
+    <Preference
+        android:key="keyWaitTime"
+        android:title="@string/title_time_delay" 
+        android:summary="@string/summary_time_delay">
+    </Preference>
+    
+    
+    <Preference
+        android:key="keyGestureSensitivity"
+        android:title="@string/title_gesture_sensitivity" >
+    </Preference>
+    
+    
+    
+    <CheckBoxPreference
+        android:key="keyChkQuitAferLaunching"
+        android:summary="Dispose gesture drawing screen after a successful gesture"
+        android:title="@string/title_enable_quick_launcher_close" >
+    </CheckBoxPreference>
+
+    <PreferenceScreen
+        android:title="@string/title_gesture_color" >
+
+        <PreferenceCategory
+            android:key="keyGestureColor"
+            android:title="" >
+            	
+            <Preference android:key="keyColorBlue"
+                android:title="@string/title_blue">
+                
+            </Preference>
+            <Preference android:key="keyColorRed"
+                android:title="@string/title_red">
+                
+            </Preference>
+            <Preference android:key="keyColorGreen"
+                android:title="@string/title_green">
+                
+            </Preference>
+            <Preference android:key="keyColorYellow"
+                android:title="@string/title_yellow">
+                
+            </Preference>
+            <Preference android:key="keyColorMagenta"
+                android:title="@string/title_magenta">
+                
+            </Preference>
+            <Preference android:key="keyColorBlack"
+                android:title="@string/title_black">
+                
+            </Preference>
+            <Preference android:key="keyColorCyan"
+                android:title="@string/title_cyan">
+                
+            </Preference>
+            <Preference android:key="keyColorCustom">
+                
+            </Preference>
+            
+            
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <Preference
+        android:key="keyAppTheme"
+        android:title="@string/title_theme" 
+        android:summary="Changes will take effect when you restart the app">
+    </Preference>
+
+    <Preference
+        android:key="keyRateUs"
+        android:summary="@string/summary_rate_us"
+        android:title="@string/title_rate_us" >
+    </Preference>
+
+    <PreferenceScreen
+        android:key="keyDonate"
+        android:summary="@string/summary_donate"
+        android:title="@string/title_donate" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

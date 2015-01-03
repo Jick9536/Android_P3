@@ -1,0 +1,279 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="first_preferencescreen"
+    android:title="@string/select_action" >
+
+    <PreferenceScreen
+        android:key="keyAppPreferencescreen"
+        android:title="@string/title_open_app" >
+
+        <PreferenceCategory
+            android:key="catApp"
+            android:title="@string/title_open_app" >
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="wifi_preferencescreen"
+        android:title="@string/title_wifi" >
+
+        <PreferenceCategory
+            android:key="catWifiSettings"
+            android:title="@string/title_wifi" >
+
+            <Preference
+                android:key="keyToggleWifi"
+                android:title="@string/title_toggle_wifi" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOnWifi"
+                android:title="@string/title_turnon_wifi" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOffWifi"
+                android:title="@string/title_turnoff_wifi" >
+            </Preference>
+
+            <Preference
+                android:key="keyWifiSettings"
+                android:title="@string/title_open_wifi_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="bluetooth_preferencescreen"
+        android:title="@string/title_bluetooth" >
+
+        <PreferenceCategory
+            android:key="catBlueToothSettings"
+            android:title="@string/title_bluetooth" >
+
+            <Preference
+                android:key="keyToggleBlueTooth"
+                android:title="@string/title_toogle_bluetooth" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOnBlueTooth"
+                android:title="@string/title_turnon_bluetooth" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOffBlueTooth"
+                android:title="@string/title_turnoff_bluetooth" >
+            </Preference>
+
+            <Preference
+                android:key="keyTmpBluetoothVisible"
+                android:title="@string/title_tmp_bluetooth_visible" >
+            </Preference>
+
+            <Preference
+                android:key="keyBluetoothSettings"
+                android:title="@string/title_open_bluetooth_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="data_preferencescreen"
+        android:title="@string/title_data_connectivity" >
+
+        <PreferenceCategory
+            android:key="catDataSettings"
+            android:title="@string/title_data_connectivity" >
+
+            <Preference
+                android:key="keyToggleData"
+                android:title="@string/title_toogle_data" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOnData"
+                android:title="@string/title_turnon_data" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOffData"
+                android:title="@string/title_turnoff_data" >
+            </Preference>
+
+            <Preference
+                android:key="keyDataSettings"
+                android:title="@string/title_open_data_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="sync_preferencescreen"
+        android:title="@string/title_sync_settings" >
+
+        <PreferenceCategory
+            android:key="catSycSettings"
+            android:title="@string/title_sync_settings" >
+
+            <Preference
+                android:key="keyToggleSync"
+                android:title="@string/title_toogle_sync" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOnSync"
+                android:title="@string/title_turnon_sync" >
+            </Preference>
+
+            <Preference
+                android:key="keyTurnOffSync"
+                android:title="@string/title_turnoff_sync" >
+            </Preference>
+
+            <Preference
+                android:key="keySyncSettings"
+                android:title="@string/title_open_sync_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="brightness_preferencescreen"
+        android:title="@string/title_brightness_settings" >
+
+        <PreferenceCategory
+            android:key="catBrigtnessSettings"
+            android:title="@string/title_brightness_settings" >
+
+            <Preference
+                android:key="keyToggleBrightness"
+                android:title="@string/title_toggle_brightness" >
+            </Preference>
+
+            <Preference
+                android:key="keyMinBrightness"
+                android:title="@string/title_min_brightness" >
+            </Preference>
+
+            <Preference
+                android:key="keyMediumBrightness"
+                android:title="@string/title_medium_brightness" >
+            </Preference>
+
+            <Preference
+                android:key="keyMaxBrightness"
+                android:title="@string/title_max_brightness" >
+            </Preference>
+
+            <Preference
+                android:key="keyDisplaySettings"
+                android:title="@string/title_open_display_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="sound_preferencescreen"
+        android:title="@string/title_sound_settings" >
+
+        <PreferenceCategory
+            android:key="catSoundSettings"
+            android:title="@string/title_sound_settings" >
+
+            <Preference
+                android:key="keyToggleSound"
+                android:title="@string/title_toggle_sound" >
+            </Preference>
+
+            <Preference
+                android:key="keyMuteSound"
+                android:title="@string/title_mute_sound" >
+            </Preference>
+
+            <Preference
+                android:key="keyVibrateSound"
+                android:title="@string/title_vibrate_sound" >
+            </Preference>
+
+            <Preference
+                android:key="keyNormalSound"
+                android:title="@string/title_normal_sound" >
+            </Preference>
+
+            <Preference
+                android:key="keySoundSettings"
+                android:title="@string/title_open_sound_settings" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="flash_preferencescreen"
+        android:title="@string/title_flash_settings" >
+
+        <PreferenceCategory
+            android:key="catFlashSettings"
+            android:title="@string/title_flash_settings" >
+
+            <Preference
+                android:key="keyTurnOnFlash"
+                android:title="@string/title_turnon_flash" >                
+            </Preference>
+            <Preference
+                android:key="keyTurnOffFlash"
+                android:title="@string/title_turnoff_flash" >                
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="other_preferencescreen"
+        android:title="@string/title_other" >
+
+        <PreferenceCategory
+            android:key="catOtherSettings"
+            android:title="@string/title_other" >
+
+            <Preference
+                android:key="keyOpenGPSSettings"
+                android:title="@string/title_open_gps_settings" >
+            </Preference>
+
+            <Preference
+                android:key="keyOpenFlightModeSettings"
+                android:title="@string/title_open_flightmode_settings" >
+            </Preference>
+
+            <Preference
+                android:key="keyOpenBatteryInfo"
+                android:title="@string/title_open_battery_info" >
+            </Preference>
+
+            <Preference
+                android:key="keyOpenTether"
+                android:title="@string/title_tether" >
+            </Preference>
+
+            <Preference
+                android:key="keyOpenFile"
+                android:title="@string/title_open_file" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="keyOpenURL"
+        android:title="@string/title_open_url" >
+
+        <PreferenceCategory
+            android:key="catURL"
+            android:title="@string/title_open_url" >
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <Preference
+        android:key="keyCallMailMsgSettings"
+        android:title="@string/title_call_msg_mail" >
+    </Preference>
+
+</PreferenceScreen>
